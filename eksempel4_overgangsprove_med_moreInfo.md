@@ -62,7 +62,7 @@ GET ~/statements?agent={"account":{"name":"76a7a061-3c55-430d-8ee0-6f82ec42501f"
 #### Eksempel på respons
 
 <a name="1"></a>
-#### 1. Learner has logged in to "Overgangsprøve i regning 4. trinn 2017"
+#### 1. Learner has logged in to "BrettMatte xxxxx"
 ``` Javascript
 {
     "id": "7772699b-1867-428c-9f3c-4c34aac6dc96",
@@ -83,18 +83,18 @@ GET ~/statements?agent={"account":{"name":"76a7a061-3c55-430d-8ee0-6f82ec42501f"
     },
     "object": {
         "objectType": "Activity",
-        "id": "https://osloprovene.inspera.no/ov-mat-4/test/123",
+        "id": "https://",
         "definition": {
             "name": {
-                "nb-NO": "Overgangsprøve i regning 4. trinn 2017"
+                "nb-NO": ""
             },
             "type": "http://adlnet.gov/expapi/activities/assessment",
-            "moreInfo": "https://osloprovene.inspera.no/ov-mat-4/test/123/valgfri-fiktiv-URL-med-info-om-prøven"
+            "moreInfo": "https://"
         }
     },
     "context": {
-        "registration": "e28fa121-91e1-43c7-9192-d9d6546bd76e",
-        "platform": "Inspera prøvemotor for Oslo",
+        "registration": "droppe denne? (GUID)",
+        "platform": "minKunnskap",
         "language": "nb-NO",
         "contextActivities": {
             "grouping": [
@@ -120,13 +120,13 @@ GET ~/statements?agent={"account":{"name":"76a7a061-3c55-430d-8ee0-6f82ec42501f"
                 },
                 {
                     "objectType": "Activity",
-                    "id": "https://api.feide.no/2/sp/1855493",
+                    "id": "https://api.feide.no/2/sp/xxxxxxxx",
                     "definition": {
                         "name": {
-                            "nb-NO": "Inspera Assessment"
+                            "nb-NO": "minKunnskap"
                         },
                         "description": {
-                            "nb-NO": "En skybasert prøve og eksamensløsning for skoler og universiteter. Lag og gjennomfør inspirerende prøver, og analyser resultatene for å hjelpe kandidaten til å lære mer"
+                            "nb-NO": "Beskrivelse av tjeneste"
                         },
                         "type": "https://w3id.org/xapi/avt/activity-types/feide-sp-id"
                     }
@@ -159,53 +159,36 @@ GET ~/statements?agent={"account":{"name":"76a7a061-3c55-430d-8ee0-6f82ec42501f"
     },
     "object": {
         "objectType": "Activity",
-        "id": "https://osloprovene.inspera.no/ov-mat-4/task/123456",
+        "id": "https://min.kunnskap.no/lesson/view/4666872364531712/PAGEID_HER",
         "definition": {
             "name": {
-                "nb-NO": "Overgangsprøven i regning, 4. trinn: Oppgave 23"
+                "nb-NO": "BrettMatte, Regne med Brøk, Side 3"
             },
-            "moreInfo": "https://osloprovene.inspera.no/ov-mat-4/task/123456/this-can-be-a-human-readable-webpage-explaining-the-task"
+            "moreInfo": "https://Lenke-man-går-til-for-å-se-innhold"
         }
     },
     "result": {
         "duration": "PT62S",
-        "response": "B",
-        "success": false,
+        "success": true,
         "score": {
             "min": 0.0,
             "max": 3.0,
-            "raw": 0.0,
-            "scaled": 0.0
+            "raw": 3.0,
+            "scaled": 1.0
         }
     },
     "context": {
-        "registration": "e28fa121-91e1-43c7-9192-d9d6546bd76e",
-        "platform": "Inspera prøvemotor for Oslo",
+        "registration": "droppe denne?",
+        "platform": "minKunnskap",
         "language": "nb-NO",
         "contextActivities": {
             "grouping": [
-                {
-                    "objectType": "Activity",
-                    "id": "http://data.udir.no/kl06/K15170",
-                    "definition": {
-                        "name": {
-                            "nb-NO": "K15170"
-                        },
-                        "description": {
-                            "nb-NO": "beskrive og bruke plassverdisystemet for de hele tallene, bruke positive og negative hele tall, enkle brøker og desimaltall i praktiske sammenhenger og uttrykke tallstørrelser på varierte måter"
-                        },
-                        "type": "https://w3id.org/xapi/avt/activity-types/competence-objective"
-                    }
-                },
                 {
                     "objectType": "Activity",
                     "id": "https://fagkart.no/avt/area-within-the-map/OFKnnnnnn",
                     "definition": {
                         "name": {
                             "nb-NO": "Desimaltallsaddisjon med overgang"
-                        },
-                        "description": {
-                            "nb-NO": "Ett eller flere av leddene i addisjonen har desimaltall og utregningen inneholder en eller flere tier-overganger"
                         },
                         "type": "https://w3id.org/xapi/avt/activity-types/area-within-the-map"
                     }
@@ -245,13 +228,13 @@ GET ~/statements?agent={"account":{"name":"76a7a061-3c55-430d-8ee0-6f82ec42501f"
                 },
                 {
                     "objectType": "Activity",
-                    "id": "https://api.feide.no/2/sp/1855493",
+                    "id": "https://api.feide.no/2/sp/xxxxxxxx",
                     "definition": {
                         "name": {
-                            "nb-NO": "Inspera Assessment"
+                            "nb-NO": "minKunnskap"
                         },
                         "description": {
-                            "nb-NO": "En skybasert prøve og eksamensløsning for skoler og universiteter. Lag og gjennomfør inspirerende prøver, og analyser resultatene for å hjelpe kandidaten til å lære mer"
+                            "nb-NO": "Beskrivelse av tjeneste"
                         },
                         "type": "https://w3id.org/xapi/avt/activity-types/feide-sp-id"
                     }
